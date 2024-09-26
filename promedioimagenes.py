@@ -14,9 +14,5 @@ tl.comparacion_promedio_img(img_name,img,sigma,path)
 # 6 para 32
 # 5 para 16
 exponente = 6
-#tl.comparacion_grafica_ruido(img,img_name,path,sigma,exponente)
-
-# COMPARACIÓN ERRONEA DE PROMEDIO USANDO UNA IMAGEN VACIA.
-#img_vacia = np.zeros((225,225))
-#tl.comparacion_promedio_img("imagenVacia",img_vacia)
+tl.comparacion_grafica_ruido(img,img_name,path,sigma,exponente)
 
