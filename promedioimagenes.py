@@ -1,7 +1,7 @@
 import tools as tl
 
 # INSERTAR RUTA PARA GUARDAR IMÁGENES
-path = rf"C:\Users\Usuario\Desktop\Escuela\Quinto semestre\Imagenes\Tarea2\data"
+path = rf"C:\Users\User\Desktop"
 img_name = "apple"
 img = tl.read_image(rf"{path}\{img_name}.jpg")
 
